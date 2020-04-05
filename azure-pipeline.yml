@@ -7,11 +7,11 @@ resources:
 
 variables:
 
-  ACR.Name: 'mtcsp'
+  ACR.Name: 'jamatidemo'
   ACR.ImageName: '$(ACR.Name):$(Build.BuildId)'
   ACR.FullName: '$(ACR.Name).azurecr.io'
-  WebApp.Name: 'mtctestapp'
-  ServicePlan.Name: 'mtctestapp'
+  WebApp.Name: 'jamati-devops-demo'
+  ServicePlan.Name: 'jamati-devops-demo'
   Azure.ServiceConnectionId: 'azurerm-service'
   
 
